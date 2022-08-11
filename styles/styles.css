@@ -1,0 +1,46 @@
+body {
+    background: #DCE8F2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    margin: 5px;
+}
+
+.card-text h1 {
+    font-size: 25px;
+    color: #1B2B40;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-text p {
+    font-size: 18px;
+    color: grey;
+    font-weight: 100;
+}
+
+footer {
+    flex-shrink: 0;
+}
